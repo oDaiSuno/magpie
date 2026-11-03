@@ -2,6 +2,7 @@
 // kernel adds them to i18n.js's (magpie.strings).
 magpie.strings({
   zh: {
+    "Free first uses it before paid ones, and Cheapest first counts it as costing nothing": "免费优先会先用它再用付费的，最便宜优先把它算作不花钱",
     "{name}, {n} accounts: {windows}": "{name}（{n} 个账号）：{windows}",
     "What is left of this provider's accounts the group can use, together: amounts of one unit added up, a share the mean of the accounts on one plan. Each account is on the Usage page.": "本组可用的这家供应商账号合起来还剩多少：同一单位的额度相加，百分比取同一套餐账号的平均值。各账号详情在用量页。",
     "Each session's context window": "各会话的上下文窗口",
@@ -102,6 +103,7 @@ magpie.strings({
     "No failed request in this list": "当前列表中没有失败的请求",
     "View usage": "查看用量",
     "magpie keeps the request and response of only the last 40 requests, until it quits. To keep every request's, turn on Request archive at the top of Usage › Requests.": "magpie 只保留最近 40 个请求的请求体和响应体，且退出后不再保留。要保留每个请求的，请在「用量 › 请求」顶部打开「请求存档」。",
+    "magpie keeps the request and response of only the last 40 requests, until it quits. Request archive is on, but this request isn't in it: it was made while the archive was off, or it couldn't be saved.": "magpie 只保留最近 40 个请求的请求体和响应体，且退出后不再保留。「请求存档」已开启，但存档里没有这个请求：它是在存档关闭时发出的，或者没能保存下来。",
     "Routing history for this request is no longer available.": "此请求的路由历史已不可用。",
     "Token breakdown": "Token 明细",
     "Input (uncached)": "输入（未缓存）",
@@ -653,6 +655,7 @@ magpie.strings({
     "This group may spend every account of {provider}": "这个组可以消耗 {provider} 的每个账号",
   },
   "zh-TW": {
+    "Free first uses it before paid ones, and Cheapest first counts it as costing nothing": "免費優先會先用它再用付費的，最便宜優先把它算作不花錢",
     "{name}, {n} accounts: {windows}": "{name}（{n} 個帳號）：{windows}",
     "What is left of this provider's accounts the group can use, together: amounts of one unit added up, a share the mean of the accounts on one plan. Each account is on the Usage page.": "本組可用的這家供應商帳號合起來還剩多少：同一單位的額度相加，百分比取同一方案帳號的平均值。各帳號詳情在用量頁。",
     "Each session's context window": "各會話的上下文視窗",
@@ -763,6 +766,7 @@ magpie.strings({
     "No failed request in this list": "目前列表中沒有失敗的請求",
     "View usage": "檢視用量",
     "magpie keeps the request and response of only the last 40 requests, until it quits. To keep every request's, turn on Request archive at the top of Usage › Requests.": "magpie 只保留最近 40 個請求的請求體和回應體，且結束後不再保留。要保留每個請求的，請在「用量 › 請求」頂部開啟「請求存檔」。",
+    "magpie keeps the request and response of only the last 40 requests, until it quits. Request archive is on, but this request isn't in it: it was made while the archive was off, or it couldn't be saved.": "magpie 只保留最近 40 個請求的請求體和回應體，且結束後不再保留。「請求存檔」已開啟，但存檔裡沒有這個請求：它是在存檔關閉時發出的，或者沒能儲存下來。",
     "Routing history for this request is no longer available.": "此請求的路由歷史已不可用。",
     "Token breakdown": "Token 明細",
     "Input (uncached)": "輸入（未快取）",
@@ -1304,6 +1308,7 @@ magpie.strings({
     "This group may spend every account of {provider}": "這個組可以消耗 {provider} 的每個帳號",
   },
   ja: {
+    "Free first uses it before paid ones, and Cheapest first counts it as costing nothing": "無料優先は有料より先にこれを使い、最安優先はこれを費用ゼロとして数えます",
     "{name}, {n} accounts: {windows}": "{name}（{n} アカウント）：{windows}",
     "What is left of this provider's accounts the group can use, together: amounts of one unit added up, a share the mean of the accounts on one plan. Each account is on the Usage page.": "このグループが使えるこのプロバイダーのアカウントの残りの合計：同じ単位の量は足し合わせ、割合は同じプランのアカウントの平均。各アカウントは使用量ページにあります。",
     "Each session's context window": "セッションごとのコンテキストウィンドウ",
@@ -1402,6 +1407,7 @@ magpie.strings({
     "No failed request in this list": "この一覧に失敗したリクエストはありません",
     "View usage": "使用量を表示",
     "magpie keeps the request and response of only the last 40 requests, until it quits. To keep every request's, turn on Request archive at the top of Usage › Requests.": "magpie はリクエスト本文とレスポンス本文を直近 40 件のリクエストぶんだけ、終了するまで保持します。すべてのリクエストのものを残すには、「使用量 › リクエスト」の上部で「リクエストアーカイブ」をオンにしてください。",
+    "magpie keeps the request and response of only the last 40 requests, until it quits. Request archive is on, but this request isn't in it: it was made while the archive was off, or it couldn't be saved.": "magpie はリクエスト本文とレスポンス本文を直近 40 件のリクエストぶんだけ、終了するまで保持します。「リクエストアーカイブ」はオンですが、このリクエストはアーカイブにありません。アーカイブがオフのときに送られたか、保存できませんでした。",
     "Routing history for this request is no longer available.": "このリクエストのルーティング履歴は利用できなくなりました。",
     "Token breakdown": "トークン内訳",
     "Input (uncached)": "入力（非キャッシュ）",
@@ -1955,6 +1961,7 @@ magpie.strings({
     "This group may spend every account of {provider}": "このグループは {provider} のすべてのアカウントを使えます",
   },
   de: {
+    "Free first uses it before paid ones, and Cheapest first counts it as costing nothing": "„Kostenlos zuerst“ nutzt es vor bezahlten, „Günstigste zuerst“ zählt es als kostenlos",
     "{name}, {n} accounts: {windows}": "{name}, {n} Konten: {windows}",
     "What is left of this provider's accounts the group can use, together: amounts of one unit added up, a share the mean of the accounts on one plan. Each account is on the Usage page.": "Was von den Konten dieses Anbieters, die die Gruppe nutzen kann, zusammen übrig ist: Mengen derselben Einheit addiert, ein Anteil als Mittelwert der Konten mit demselben Tarif. Die einzelnen Konten stehen auf der Seite Nutzung.",
     "Each session's context window": "Kontextfenster jeder Sitzung",
@@ -2053,6 +2060,7 @@ magpie.strings({
     "No failed request in this list": "Keine fehlgeschlagene Anfrage in dieser Liste",
     "View usage": "Nutzung anzeigen",
     "magpie keeps the request and response of only the last 40 requests, until it quits. To keep every request's, turn on Request archive at the top of Usage › Requests.": "magpie behält Anfrage und Antwort nur der letzten 40 Anfragen, bis es beendet wird. Um sie für jede Anfrage zu behalten, schalte oben unter Nutzung › Anfragen das Anfragearchiv ein.",
+    "magpie keeps the request and response of only the last 40 requests, until it quits. Request archive is on, but this request isn't in it: it was made while the archive was off, or it couldn't be saved.": "magpie behält Anfrage und Antwort nur der letzten 40 Anfragen, bis es beendet wird. Das Anfragearchiv ist an, aber diese Anfrage ist nicht darin: Sie kam, während das Archiv aus war, oder konnte nicht gespeichert werden.",
     "Routing history for this request is no longer available.": "Der Weiterleitungsverlauf dieser Anfrage ist nicht mehr verfügbar.",
     "Token breakdown": "Token-Aufschlüsselung",
     "Input (uncached)": "Eingabe (nicht gecacht)",
